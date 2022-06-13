@@ -1,15 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Reutov Paints</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Reutov Paints</title>
 </head>
 
-<body>
+<body class="page__body">
+  <header class="main-header">
+    <a href="#" class="main-header__link">Reutov Paints</a>
+    <button class="main-header__button" type="button"></button>
+    <nav class="main-header__nav main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">О компании</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">Каталог</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">Отзывы</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-container">
+    <h1 class="visually-hidden">Немецкие краски Alpina, Caparol, Profitec</h1>
+    <section class="main-container__slider slider">
+      <div class="slider__photo-wrapper">
+        <ul class="slider__list">
+          <li class="slider__item">
+            <a class="slider__link" href="#">
+              <picture>
+                <source srcset="img/card-images/carddesktop-1.webp, img/card-images/carddesktop-1@2x.webp 2x" media="(min-width: 1150px)" type="image/webp">
+                <source srcset="img/card-images/carddesktop-1.jpg, img/card-images/carddesktop-1@2x.jpg 2x" media="(min-width: 1150px)">
+                <source srcset="img/card-images/cardtablet-1.webp, img/card-images/cardtablet-1@2x.webp 2x" media="(min-width: 768px)" type="image/webp">
+                <source srcset="img/card-images/cardtablet-1.jpg, img/card-images/cardtablet-1@2x.jpg 2x" media="(min-width: 768px)">
+                <source srcset="img/card-images/cardmobile-1.webp, img/card-images/cardmobile-1@2x.webp 2x" type="image/webp">
+                <img class="card__images" width="260" height="195" src="img/card-images/cardmobile-1.jpg" srcset="img/card-images/cardmobile-1@2x.jpg 2x" alt="Изображение товара." loading="lazy">
+              </picture>
+            </a>
+          </li>
+          <li class="slider__item">
+            <a class="slider__link" href="#">
+              <picture>
+                <source srcset="img/card-images/carddesktop-1.webp, img/card-images/carddesktop-1@2x.webp 2x" media="(min-width: 1150px)" type="image/webp">
+                <source srcset="img/card-images/carddesktop-1.jpg, img/card-images/carddesktop-1@2x.jpg 2x" media="(min-width: 1150px)">
+                <source srcset="img/card-images/cardtablet-1.webp, img/card-images/cardtablet-1@2x.webp 2x" media="(min-width: 768px)" type="image/webp">
+                <source srcset="img/card-images/cardtablet-1.jpg, img/card-images/cardtablet-1@2x.jpg 2x" media="(min-width: 768px)">
+                <source srcset="img/card-images/cardmobile-1.webp, img/card-images/cardmobile-1@2x.webp 2x" type="image/webp">
+                <img class="card__images" width="260" height="195" src="img/card-images/cardmobile-1.jpg" srcset="img/card-images/cardmobile-1@2x.jpg 2x" alt="Изображение товара." loading="lazy">
+              </picture>
+            </a>
+          </li>
 
+        </ul>
+      </div>
+    </section>
+    <section class="main-container__advantages advantages">
+      <h2 class="advantages__title">Официальный дистрибьютер немецких красок Alpina, Caparol, Profitec</h2>
+      <ul class="advantages__list">
+        <li class="advantages__item">Экологически чистые
+          материалы</li>
+        <li class="advantages__item">Бесплатный подбор цвета и колеровка</li>
+        <li class="advantages__item">Доставка до объекта на следующий день</li>
+        <li class="advantages__item">Техническая поддержка 24/7</li>
+        <li class="advantages__item">Авторский надзор малярных работ</li>
+        <li class="advantages__item">Гарантия качества 20 лет</li>
+      </ul>
+    </section>
+    <section class="main-container__brands brands">
+      <h2 class="visually-hidden">Краски Капарол, Профитек, Альпина</h2>
+      <ul class="brands__list">
+        <li class="brands__item">
+          <a class="brands__link" href="#">
+            <img src="#" alt="Капарол.">
+          </a>
+        </li>
+        <li class="brands__item">
+          <a class="brands__link" href="#">
+            <img src="#" alt="Профитек.">
+          </a>
+        </li>
+        <li class="brands__item">
+          <a class="brands__link" href="#">
+            <img src="#" alt="Альпина.">
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="main-container__contacts contacts">
+      <h2 class="visually-hidden">Адрес компании Реутов пейнтс</h2>
+      <p class="contacts__text">
+        МО г. Реутов
+        ул. Октября дом 30
+        пн-пт: 09-18
+        сб-вс: 10-18
+      </p>
+      <a class="contacts__link" href="mailto:v@100pil.ru">Напишите нам</a>
+      <a href="tel:+79999058818">+7(999)905-88-18</a>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.6079434498345!2d37.872562617525226!3d55.75274317483071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414acbd3728c0c35%3A0x2b350b4167cdd448!2z0JDRgNC00LjQu9C70LA!5e0!3m2!1sru!2sru!4v1655144715302!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+  <footer class="footer">
+    <section class="footer__social social">
+      <h2 class="visually-hidden">Социальные сети: Телеграмм, Ютуб, Вконтакте.</h2>
+      <ul class="social__list">
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <span class="visually-hidden">Телеграмм.</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <span class="visually-hidden">Ютуб.</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <span class="visually-hidden">Вконтакте.</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </footer>
 </body>
 
 </html>
