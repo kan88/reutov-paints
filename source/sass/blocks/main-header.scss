@@ -1,0 +1,36 @@
+.main-header {
+  display: flex;
+  justify-content: center;
+  background-color: $quaternary;
+}
+
+.main-header__link {
+  display: block;
+  color: $primary;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-nav {
+  position: absolute;
+}
+
+.main-header__nav {
+  position: absolute;
+
+  &--close {
+    display: none;
+  }
+
+  &--opened {
+    display: block;
+  }
+}
+
+.main-header__button {
+  position: absolute;
+  border: none;
+  width: 30px;
+  height: 21px;
+}
