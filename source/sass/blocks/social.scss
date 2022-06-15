@@ -1,0 +1,13 @@
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  width: 100px;
+}
+
+.social__link {
+  display: block;
+  width: 25px;
+  height: 25px;
+}

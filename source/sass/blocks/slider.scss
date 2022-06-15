@@ -1,12 +1,23 @@
+.slider {
+  padding: 20px 30px;
+}
+
 .slider__list {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
+  margin: 0;
+}
+
+.slider__item {
+  margin: 0 auto;
 }
 
 .slider__link {
   display: block;
   width: 260px;
-  height: 148px;
+  height: 155px;
 }
 
 .slider__image {
