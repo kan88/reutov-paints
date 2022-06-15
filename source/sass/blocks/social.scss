@@ -11,3 +11,11 @@
   width: 25px;
   height: 25px;
 }
+
+@media (min-width: $tablet-width) {
+  .social__list {
+    width: 200px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+}

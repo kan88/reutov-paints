@@ -26,7 +26,7 @@
     height: 22px;
     top: 12px;
     left: 35px;
-    background-image: url('../img/icons/array.svg');
+    background-image: url("../img/icons/array.svg");
     background-repeat: no-repeat;
   }
 }
@@ -39,4 +39,33 @@
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    width: auto;
+  }
+
+  .main-nav__list {
+    flex-direction: row;
+    background-color: $quaternary;
+    padding-right: 50px;
+  }
+
+  .main-nav__item {
+    padding-left: 0;
+    margin-right: 10px;
+    box-shadow: none;
+    background-color: $quaternary;
+
+    &::before {
+      display: none;
+    }
+
+    .main-nav__link {
+      font-size: 14px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
 }
