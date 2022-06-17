@@ -70,18 +70,22 @@
     &::before {
       display: none;
     }
+  }
 
-    .main-nav__link {
-      font-size: 14px;
-      padding-top: 30px;
-      padding-bottom: 30px;
-    }
+  .main-nav__link {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .main-nav__item {
     margin-right: 30px;
+  }
+
+  .main-nav__link {
+    font-size: 16px;
   }
 }
 

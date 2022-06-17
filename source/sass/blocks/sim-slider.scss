@@ -28,13 +28,14 @@
 
 .sim-slider-image {
   width: 100%;
+  max-height: 146px;
 }
 
 /* Navigation item styles */
 div.sim-slider-arrow-left,
 div.sim-slider-arrow-right {
-  width: 22px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   position: absolute;
   cursor: pointer;
   opacity: 0.6;
@@ -43,16 +44,16 @@ div.sim-slider-arrow-right {
 
 div.sim-slider-arrow-left {
   left: 10px;
-  top: 40%;
+  top: 50%;
   display: block;
-  background: url("sim-arrow-left.png") no-repeat;
+  background: url("../img/icons/left.svg") no-repeat;
 }
 
 div.sim-slider-arrow-right {
   right: 10px;
-  top: 40%;
+  top: 50%;
   display: block;
-  background: url("sim-arrow-right.png") no-repeat;
+  background: url("../img/icons/right.svg") no-repeat;
 }
 
 div.sim-slider-arrow-left:hover {
@@ -89,7 +90,10 @@ span.sim-dot {
   .sim-slider {
     width: 460px;
     height: 258px;
-    margin-bottom: 0;
+  }
+
+  .sim-slider-image {
+    max-height: 258px;
   }
 }
 
@@ -98,5 +102,9 @@ span.sim-dot {
   .sim-slider {
     width: 660px;
     height: 371px;
+  }
+
+  .sim-slider-image {
+    max-height: 371px;
   }
 }

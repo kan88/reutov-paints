@@ -90,3 +90,9 @@
     }
   }
 }
+
+@media (min-width: $desktop-width) {
+  .main-header__link {
+    font-size: 22px;
+  }
+}

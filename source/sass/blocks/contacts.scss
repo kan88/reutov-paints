@@ -12,8 +12,8 @@
     width: 70px;
     height: 70px;
     background-repeat: no-repeat;
-    top: 80px;
-    right: 200px;
+    top: 55px;
+    left: 55px;
   }
 }
 
@@ -53,6 +53,7 @@
   min-width: 260px;
   height: 300px;
   cursor: pointer;
+  border: 1px solid $primary;
 }
 
 @media (min-width: $tablet-width) {
