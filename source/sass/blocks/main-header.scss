@@ -14,6 +14,14 @@
   text-decoration: none;
   padding-top: 20px;
   padding-bottom: 20px;
+
+  &:hover {
+    color: $primary;
+  }
+
+  &:active {
+    color: $active;
+  }
 }
 
 .main-nav {

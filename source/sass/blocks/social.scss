@@ -10,6 +10,17 @@
   display: block;
   width: 25px;
   height: 25px;
+  cursor: pointer;
+  fill: #61a897;
+
+  &:hover {
+    transform: scale(1.2);
+    fill: $logo;
+  }
+
+  &:active {
+    fill: $active;
+  }
 }
 
 @media (min-width: $tablet-width) {

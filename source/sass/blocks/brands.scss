@@ -12,19 +12,20 @@
 }
 
 .brands__item {
-  background-color: $primary;
-  box-shadow: inset 0 0 1px $secondary;
+  background-color: $quaternary;
   margin-bottom: 5px;
   border-radius: 40px;
   width: 230px;
+  border: 2px solid $primary;
 }
 
 .brands__link {
   display: block;
   text-decoration: none;
   text-transform: uppercase;
-  color: $tertiary;
+  color: $logo;
   padding: 10px 40px;
+  cursor: pointer;
 }
 
 @media (min-width: $tablet-width) {
@@ -39,9 +40,22 @@
 
   .brands__item {
     border-radius: 5px;
+
+    &:hover {
+      transform: scale(1.05);
+      background-color: $primary;
+    }
   }
 
   .brands__link {
     padding: 50px 40px;
+
+    &:hover {
+      color: $quaternary;
+    }
+
+    &:active {
+      color: $active;
+    }
   }
 }

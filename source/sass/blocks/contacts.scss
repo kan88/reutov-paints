@@ -34,6 +34,15 @@
   color: $primary;
   margin-left: auto;
   text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: $active;
+  }
+
+  &:active {
+    color: $active;
+  }
 
   &--number {
     margin-bottom: 10px;
@@ -43,6 +52,7 @@
 .contacts__map {
   min-width: 260px;
   height: 300px;
+  cursor: pointer;
 }
 
 @media (min-width: $tablet-width) {
