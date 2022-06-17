@@ -31,6 +31,8 @@
 .main-header__nav {
   position: absolute;
   top: 64px;
+  left: 0;
+  z-index: 100;
 
   &--close {
     display: none;
@@ -61,6 +63,18 @@
   bottom: 0;
   margin: auto;
   background-image: url("../img/icons/button-close.svg");
+  background-repeat: no-repeat;
+}
+
+.main-header__nav--opened + .main-header__button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../img/icons/button-opened.svg");
   background-repeat: no-repeat;
 }
 
